@@ -4,7 +4,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
-//builder.Services.AddCors();
 
 var app = builder.Build();
 
@@ -15,6 +14,11 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// we need both UseDefault and UseStatic to serve the html file in a case of NOCORS
+app.UseDefaultFiles(); 
+
+app.UseStaticFiles();
 
 app.MapControllers();
 

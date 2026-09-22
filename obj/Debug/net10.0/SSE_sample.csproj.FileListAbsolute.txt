@@ -32,3 +32,5 @@
 /Users/user/Desktop/MyDotnetApps/SSE_sample/obj/Debug/net10.0/SSE_sample.genruntimeconfig.cache
 /Users/user/Desktop/MyDotnetApps/SSE_sample/obj/Debug/net10.0/ref/SSE_sample.dll
 /Users/user/Desktop/MyDotnetApps/SSE_sample/obj/Debug/net10.0/SSE_sample.sourcelink.json
+/Users/user/Desktop/MyDotnetApps/SSE_sample/bin/Debug/net10.0/SSE_sample.staticwebassets.runtime.json
+/Users/user/Desktop/MyDotnetApps/SSE_sample/obj/Debug/net10.0/compressed/i7rmwni206-{0}-lnv4f8zmg4-lnv4f8zmg4.gz

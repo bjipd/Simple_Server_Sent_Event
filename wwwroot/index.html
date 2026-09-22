@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>Stock Pricing Alert!</h1>
+  <ul id="Market_Price"></ul>
+
+  <script>
+    const source = new EventSource("/api/SSE/stream");
+
+    source.addEventListener("stock-news", (e) => {
+      const item = JSON.parse(e.data);
+      const li = document.createElement("li");
+      li.textContent = `[${item.Id}] ${item.Symbol} | ${item.Headline} @ $${item.Price} | ${item.Timestamp}`;
+      document.getElementById("Market_Price").prepend(li);
+    });
+
+    source.onopen = () => console.log("connected");
+    source.onerror = (err) => console.error("SSE error", err);
+  </script>
+</body>
+</html>
