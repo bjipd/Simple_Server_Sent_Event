@@ -31,3 +31,4 @@
 /Users/user/Desktop/MyDotnetApps/SSE_sample/obj/Debug/net10.0/SSE_sample.pdb
 /Users/user/Desktop/MyDotnetApps/SSE_sample/obj/Debug/net10.0/SSE_sample.genruntimeconfig.cache
 /Users/user/Desktop/MyDotnetApps/SSE_sample/obj/Debug/net10.0/ref/SSE_sample.dll
+/Users/user/Desktop/MyDotnetApps/SSE_sample/obj/Debug/net10.0/SSE_sample.sourcelink.json
